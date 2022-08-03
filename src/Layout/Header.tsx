@@ -6,14 +6,10 @@ const Header = () => {
   return (
     <header className="flex flex-col justify-center items-center">
         <img src={logo} className="w-52" alt="logo" />
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+        <p
         >
           Reusable React Components <i>made with TailwindCSS</i>
-        </a>
+        </p>
       </header>
   )
 }
